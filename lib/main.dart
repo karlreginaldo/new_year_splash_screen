@@ -18,10 +18,8 @@ class _StartState extends State<Start> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SafeArea(
-        child: Center(
-          child: Happy(),
-        ),
+      home: Scaffold(
+        body: Happy(),
       ),
     );
   }
